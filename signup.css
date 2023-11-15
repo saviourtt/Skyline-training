@@ -1,0 +1,444 @@
+body{
+
+  background-color: grey;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+/* here is the code for my container */
+
+
+.container-form{
+width: 60%;
+background-color: rgb(214, 150, 11);
+margin: auto;
+text-align: center;
+font-size: 20px;
+border-radius: 25px;
+padding: 20px;
+}
+
+
+ /* here is my username code */
+
+
+
+input[type=text]{
+
+width: 50%;  
+padding: 15px;
+border-radius: 15px;
+border: 1px solid black;
+text-indent: 40px;
+font-size: 20px;
+color: rgb(214, 150, 11);
+margin-top: 25px;
+}
+
+input[type=text]:focus{
+
+  color: rgb(214, 150, 11);
+  border-radius: 15px;
+  border: 1px solid rgb(4, 111, 199);
+  outline: none;
+  }
+
+
+
+  /* here is my username icon code */
+
+
+  .user{
+    position: absolute;
+    top: 49%;
+    left: 26%;
+    color: rgba(214, 150, 11, 0.548);
+
+  }
+
+  .form-user{
+
+    position: relative;
+    }
+
+
+
+  /* here is my email code */
+
+
+
+  input[type=email]{
+
+    width: 50%;  
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-indent: 40px;
+    color: rgb(214, 150, 11);
+    font-size: 20px;
+    margin-top: 25px;
+    }
+    
+    input[type=email]:focus{
+    
+      
+      border-radius: 15px;
+      border: 1px solid rgb(4, 111, 199);
+      outline: none;
+      color: rgb(214, 150, 11);
+      }
+
+
+
+/* here is my email icon code */
+
+
+  .email{
+    position: absolute;
+    top: 49%;
+    left: 26%;
+    color: rgba(214, 150, 11, 0.548);
+
+  }
+
+
+  .form-email{
+
+    position: relative;
+    }
+
+
+
+    /* here is my phone code */
+
+
+
+  input[type=tel]{
+
+    width: 50%;  
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-indent: 40px;
+    color: rgb(214, 150, 11);
+    font-size: 20px;
+    margin-top: 25px;
+    }
+    
+    input[type=tel]:focus{
+    
+      
+      border-radius: 15px;
+      border: 1px solid rgb(4, 111, 199);
+      outline: none;
+      color: rgb(214, 150, 11);
+      }
+
+
+
+  /* here is my phone icon code */
+
+
+  .phone{
+    position: absolute;
+    top: 49%;
+    left: 26%;
+    color: rgba(214, 150, 11, 0.548);
+
+  }
+
+  .form-phone{
+
+    position: relative;
+    }
+
+    
+
+    /* here is my password code */
+
+
+
+  input[type=password]{
+
+    width: 50%;  
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-indent: 40px;
+    color: rgb(214, 150, 11);
+    font-size: 20px;
+    margin-top: 25px;
+    }
+    
+    input[type=password]:focus{
+    
+      
+      border-radius: 15px;
+      border: 1px solid rgb(4, 111, 199);
+      outline: none;
+      color: rgb(214, 150, 11);
+      }
+
+
+
+  /* here is my password icon code */
+
+
+  .password{
+    position: absolute;
+    top: 49%;
+    left: 26%;
+    color: rgba(214, 150, 11, 0.548);
+
+  }
+
+  .form-password{
+
+    position: relative;
+    }
+
+
+
+
+    /* here is my placeholder for my form */
+
+
+  ::placeholder{
+    font-size: 18px;
+    color: rgba(214, 150, 11, 0.548);
+    font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+   padding-left: 15px;
+  }
+
+  /* here is the code for my second container form main */
+
+  .form-main{
+    padding-bottom: 50px;
+  }
+ 
+
+  /* here is the code for my register button */
+
+
+  .btn-btn{
+ margin-top: 25px;   
+background-color: #0866FF;
+padding: 15px 30px;
+border: none;
+border-radius: 10px;
+font-size: 20px;
+color: white;
+width: 50%;
+}
+
+.btn-btn:hover{
+  background-color:rgba(255, 255, 255, 0.363);
+  color: #0866FF;
+  }
+
+
+/* here is the code for my divider */
+
+.divider{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.divider::after, .divider::before {
+content: "";
+padding: 1px;
+background-color: #0866FF;
+flex: 2;
+margin: 10px 3px;
+}
+
+
+/* here is the code for my divider2  */
+
+.divider2{
+  background-color:#0866FF ;
+  padding: 15px;
+  border-radius: 40px;
+  border: 1px solid white;
+}
+
+/* here are the code for my social media button */
+
+
+.socailmedia-form{
+  margin: 40px;
+}
+
+
+.facebook-btn1{
+
+  background-color: #0866FF;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin: 0px 10px;
+  border-radius: 20px;
+}
+
+
+.facebook-btn1:nth-child(2){
+
+  background-color:  #26a7de;
+}
+
+
+.facebook-btn1:nth-child(3){
+
+  background-color:  #a81515;
+  
+}
+
+
+.fa-brands{
+  padding-right: 10px;
+  
+    }
+
+
+/* here is the code for my text */
+
+h1{
+color: white;
+}
+
+p{
+  color: white;
+}
+
+/* here is the code for already have account */
+
+
+.already{
+  color: white;
+ padding: 20px;
+ margin-top: 25px;
+}
+
+.already a{
+text-decoration: none;
+color: #0866FF ;
+
+}
+
+
+
+/* here is the code for my next button */
+
+.next{
+  width: 20%;
+      padding: 20px;
+      border-radius: 7px;
+      border: 2px solid rgb(201, 139, 5);
+      background: #0866FF;
+      color:white;
+      font-size: 15px;
+      margin: auto;
+      font-weight: bold;
+ }
+  
+  .next:hover{
+  background-color:rgba(255, 255, 255, 0.363);
+  color: #0866FF;
+  }
+
+  .next a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+  .next{
+    margin-top: 35px;
+  }
+
+  .fa-house{
+    position: relative;
+    padding-right: 10px;
+  }
+
+
+
+/* here is my mobile code */
+
+
+@media(max-width:1011px){
+
+  .container-form{
+    width: 100%;
+  }
+
+
+
+  /* here are the code for my social media button */
+
+
+.socailmedia-form{
+  margin: 40px;
+}
+
+
+.facebook-btn1{
+
+  background-color: #0866FF;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin: 0px 10px;
+  border-radius: 20px;
+}
+
+
+.facebook-btn1:nth-child(2){
+
+  background-color:  #26a7de;
+}
+
+
+.facebook-btn1:nth-child(3){
+
+  background-color:  #a81515;
+  
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.next{
+  width: 20%;
+      padding: 15px;
+      border-radius: 7px;
+      border: 2px solid rgb(201, 139, 5);
+      background: #0866FF;
+      color:white;
+      font-size: 15px;
+      margin: auto;
+      font-weight: bold;
+ }
+
+ .next{
+  
+      
+      margin: auto;
+      margin-top: 22px;
+
+}
+
+}
+
+
+
+
+  
+
+  
